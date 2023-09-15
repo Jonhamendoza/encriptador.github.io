@@ -1,7 +1,7 @@
 
 
     
-    let textoAprocesar = document.getElementById("exampleFormControlTextarea1").value;
+    const textoAprocesar = document.getElementById("exampleFormControlTextarea1").value;
     let textoProcesado = procesarTexto(textoAprocesar);
 
     
