@@ -1,4 +1,21 @@
 
+ function mostrarTexto(){
+        var txtProcesado = textoAprocesar;
+        if(txtProcesado == ""){
+         document.getElementById("contenedorTextoResultado").value= "Ingrese un texto...";
+        } else {
+            document.getElementById("contenedorTextoResultado").value= textoProcesado;
+        }
+        
+
+    }
+
+
+
+
+
+
+
 let textoAprocesar = document.getElementById("exampleFormControlTextarea1").value;
 let textoProcesado = procesarTexto(textoAprocesar);
 
@@ -14,13 +31,4 @@ function procesarTexto(input){
 
     }
 
-    function mostrarTexto(){
-        var txtProcesado = textoAprocesar;
-        if(txtProcesado == ""){
-         document.getElementById("contenedorTextoResultado").value= "Ingrese un texto...";
-        } else {
-            document.getElementById("contenedorTextoResultado").value= textoProcesado;
-        }
-        
-
-    }
+   
