@@ -16,7 +16,7 @@ function procesarTexto(input){
 
     function mostrarTexto(){
         var txtProcesado = textoAprocesar;
-        if(txtProcesado = ""){
+        if(txtProcesado == ""){
          document.getElementById("contenedorTextoResultado").value= "Ingrese un texto...";
         } else {
             document.getElementById("contenedorTextoResultado").value= textoProcesado;
