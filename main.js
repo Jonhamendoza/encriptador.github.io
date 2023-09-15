@@ -1,9 +1,6 @@
 
 
-    window.addEventListener("load", ()=>{
-        getElements();
-    })
-
+    
     let textoAprocesar = document.getElementById("exampleFormControlTextarea1").value;
     let textoProcesado = procesarTexto(textoAprocesar);
 
