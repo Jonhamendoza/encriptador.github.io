@@ -6,18 +6,8 @@
         } else {
             document.getElementById("contenedorTextoResultado").value= textoProcesado;
         }
-        
-
-    }
-
-
-
-
-
-
-
-let textoAprocesar = document.getElementById("exampleFormControlTextarea1").value;
-let textoProcesado = procesarTexto(textoAprocesar);
+        let textoAprocesar = document.getElementById("exampleFormControlTextarea1").value;
+        let textoProcesado = procesarTexto(textoAprocesar);
 
 
 function procesarTexto(input){
@@ -30,5 +20,15 @@ function procesarTexto(input){
     return txt.join("");
 
     }
+
+    }
+
+
+
+
+
+
+
+
 
    
